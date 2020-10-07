@@ -93,6 +93,27 @@ namespace IndoToMinang
             pdictonary.Add("Semuanya", "Kasadonyo");
             pdictonary.Add("sekolah", "sikola");
             pdictonary.Add("Sekolah", "Sikola");
+            pdictonary.Add("anjing", "anjiang");
+            pdictonary.Add("Anjing", "Anjiang");
+            pdictonary.Add("monyet", "baruak");
+            pdictonary.Add("Monyet", "Baruak");
+            pdictonary.Add("babi", "kandiak");
+            pdictonary.Add("Babi", "Kandiak");
+            pdictonary.Add("bodoh", "ongok");
+            pdictonary.Add("Bodoh", "Ongok");
+            pdictonary.Add("goblok", "ongok");
+            pdictonary.Add("Goblok", "Ongok");
+            pdictonary.Add("bego", "ongok");
+            pdictonary.Add("Bego", "Ongok");
+            pdictonary.Add("tolol", "ongok");
+            pdictonary.Add("Tolol", "Ongok");
+            pdictonary.Add("kamu", "ang");
+            pdictonary.Add("Kamu", "Ang");
+            pdictonary.Add("kau", "ang");
+            pdictonary.Add("Kau", "Ang");
+            pdictonary.Add("lu", "ang"); //lu = bahasa betawi
+            pdictonary.Add("Lu", "Ang"); //Lu = bahasa betawi
+            
         }
         
 
