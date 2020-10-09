@@ -74,10 +74,24 @@ namespace IndoToMinang
             pdictonary.Add("aja", "sajo");
             pdictonary.Add("bentar", "banta");
             pdictonary.Add("sebentar", "sabanta");
+            pdictonary.Add("hitam", "itam");
+            pdictonary.Add("kuning", "kuniang");
+            pdictonary.Add("uang", "pitih");
+            pdictonary.Add("berapa", "bara");
+            pdictonary.Add("harga", "arago");
+            pdictonary.Add("hitung", "etoang");
+            pdictonary.Add("menghitung", "maetoang");
+            pdictonary.Add("acak", "aciak");
+            pdictonary.Add("acara", "acaro");
+            pdictonary.Add("cukup", "cukuik");
+            pdictonary.Add("banyak", "sambuah");
+            pdictonary.Add("absen", "mangkia");
+
         }
         
         private void button1_Click(object sender, EventArgs e)
         {
+            
             string translate = IDLineToMinang(textBox1.Text.ToLower());
             textBox2.Text = translate;
         }
@@ -86,6 +100,7 @@ namespace IndoToMinang
             // array of words:
             string[] words = line.Split(' ');
             string ToReturn = "";
+
             foreach (string word in words)
             {
                 string temp = IDToMinang(word) + " ";
