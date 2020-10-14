@@ -44,7 +44,8 @@ namespace IndoToMinang
             pdictonary.Add("alat", "alaik");
             pdictonary.Add("tempat", "tampek");
             pdictonary.Add("tinggal", "tingga");
-            pdictonary.Add("rumah", "gadang");
+            pdictonary.Add("besar", "gadang");
+            pdictonary.Add("gede", "gadang");
             pdictonary.Add("desa", "koroang");
             pdictonary.Add("kampung", "kampuang");
             pdictonary.Add("lorong", "labuah");
@@ -86,7 +87,14 @@ namespace IndoToMinang
             pdictonary.Add("cukup", "cukuik");
             pdictonary.Add("banyak", "sambuah");
             pdictonary.Add("absen", "mangkia");
-
+            pdictonary.Add("ganteng", "gagah");
+            pdictonary.Add("cantik", "rancak");
+            pdictonary.Add("mencoba", "mencubo");
+            pdictonary.Add("membuat", "mambuek");
+            pdictonary.Add("buat", "buek");
+            pdictonary.Add("coba", "cubo");
+            pdictonary.Add("tidur", "tidua");
+            pdictonary.Add("untuk", "untuak");
         }
         
         private void button1_Click(object sender, EventArgs e)
